@@ -1,0 +1,125 @@
+body{
+    background-color: #a1e8e5;
+    text-align: center;
+    
+}
+
+.container{
+    background-color: rgb(38, 169, 205,0.5);
+    padding: 20px;
+    position: absolute;
+    left:200px;
+    border-radius: 30px;
+    border:5px solid blue;
+    height:auto;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+   
+}
+
+  
+/* @media (max-height: 900px) {
+    .container {
+      flex-direction: column;
+    }
+} */
+
+.head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(42, 177, 218);
+    display: inline;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.res{
+    padding: 35px;
+    font-size: 40px;
+}
+.compchoice{
+    display: inline;
+    padding: 35px;
+    text-align: center;
+    font-size: 40px;
+}
+.line{
+    background-color: #1c1c1c;
+    height: 10px;
+    border-radius: 100px;
+}
+.choices{
+    border:5px solid rgb(136, 20, 207);
+    display: flex;
+    flex-direction: column;
+    left:10px;
+    padding: 50px;
+    gap:3rem;
+    width:150px;
+    justify-content: center;
+    border-radius: 60px;
+    background-color: rgb(160,32,240,0.8);
+   
+}
+#c{ 
+    width:120px;
+    border-radius: 90px;
+    cursor: pointer;
+   
+    transition:border 0.7s,width 0.7s;
+
+}
+#c:hover{
+    width: fit-content;
+    border: 10px solid black;
+    width:125px ;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.info{
+    border-radius: 60px;
+    border:10px solid blue;
+    width:1000px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 60px;
+    color:orange;
+    background-color: rgb(0, 0, 255);
+
+}
+.scoreboard{
+    border:10px solid black;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    border-radius: 60px;
+    background-color: rgb(68, 0, 100,0.7);
+    color: aqua ;
+}
+.scorecount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+
+}
+.txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+.res{
+    border-radius: 70px;
+    color:rgb(255, 255, 255);
+    font-size: 50px;;
+}
